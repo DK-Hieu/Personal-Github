@@ -1,0 +1,12 @@
+B1: tạo clone trên máy tính
+Mở gitbash tạo thư mục cần upload
+	git clone https://github.com/DK-Hieu/fpts.git
+	exit -- sau khi tạo clone thành công
+B2: copy tất cả các file cần upload vào thư mục clone
+B3: mở gitbash tạo thư mục clone và add dữ liệu
+	git add . -- dùng để add tất cả dữ liệu có trong thư mục
+	git commit -m "diễn giải cho file hoặc thư mục"
+B4: push dữ liệu lên github
+	gif push
+
+
