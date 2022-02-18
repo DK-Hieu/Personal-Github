@@ -1,0 +1,22 @@
+Cách upload env lên anaconda cloud
+Có 2 cách để upload: 
+
+C1: truyền thống
+-convent env thành một file .yml bằng anaconda Prompt 
+-Vào trang anaconda.org đăng nhập và vào phần environment 
+-Sử dụng nút upload truyền thống
+
+-Khi cài đặt sẽ down trực tiếp từ web về và cài đặt (cần tìm hiểu thêm cách cài đặt)
+
+C2: sử dụng câu lệnh trong cổng prompt
+-conda activate vscode
+-convent env:
+	conda env export -n vscode(tên env)  -f vscode.yml
+
+-Đăng nhập trên phần mềm anaconda
+-upload file bằng câu lệnh
+	anaconda upload vscode.yml
+
+-down và cài đặt env (cần test)
+	conda env create user/my-environment
+	source activate my-environment
