@@ -9,7 +9,6 @@ C1: truyền thống
 -Khi cài đặt sẽ down trực tiếp từ web về và cài đặt (cần tìm hiểu thêm cách cài đặt)
 
 C2: sử dụng câu lệnh trong cổng prompt
--conda activate vscode
 -convent env:
 	conda env export -n vscode(tên env)  -f vscode.yml
 
