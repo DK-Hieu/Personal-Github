@@ -11,3 +11,7 @@ B4: push dữ liệu lên github
 B5: lấy dữ liệu xuống
 	git pull
 
+câu lệnh git bash
+
+git remote -v #tìm đường link dẫn của github
+ 
