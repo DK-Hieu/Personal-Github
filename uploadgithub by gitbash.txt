@@ -11,7 +11,14 @@ B4: push dữ liệu lên github
 B5: lấy dữ liệu xuống
 	git pull
 
+<<<<<<< HEAD
 Với lỗi upload nhầm file lớn hơn 100mb đã dùng lệnh commit và push thì dùng
 B1: git log # tìm thứ tự lệnh commit vừa dùng
 B2: git reset HEAD~1 or 2 # xóa lệnh commit tại vị trí thứ tự ....
 
+=======
+câu lệnh git bash
+
+git remote -v #tìm đường link dẫn của github
+ 
+>>>>>>> 294ad4fe6aae1b2dbd66bfddc7deaac51e69d20d
