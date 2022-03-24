@@ -1,3 +1,7 @@
+Update git bằng CMD:
+git version                #Check version
+git update-git-for-windows #Update version 
+
 B1: tạo clone trên máy tính
 Mở gitbash tạo thư mục cần upload
 	git clone https://github.com/DK-Hieu/fpts.git
@@ -22,3 +26,5 @@ câu lệnh git bash
 git remote -v #tìm đường link dẫn của github
  
 >>>>>>> 294ad4fe6aae1b2dbd66bfddc7deaac51e69d20d
+
+token github: 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
