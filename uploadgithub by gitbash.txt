@@ -1,3 +1,5 @@
+token github: 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
+
 Update git bằng CMD:
 git version                #Check version
 git update-git-for-windows #Update version 
@@ -14,12 +16,27 @@ B4: push dữ liệu lên github
 	gif push
 B5: lấy dữ liệu xuống
 	git pull
+-----------------------------------------------------------------------------
 
-<<<<<<< HEAD
 Với lỗi upload nhầm file lớn hơn 100mb đã dùng lệnh commit và push thì dùng
 B1: git log # tìm thứ tự lệnh commit vừa dùng
 B2: git reset HEAD~1 or 2 # xóa lệnh commit tại vị trí thứ tự ....
 
+-----------------------------------------------------------------------------
+
+error: Your local changes to the following files would be overwritten by merge:
+B1: git stash
+B2: git push
+
+-----------------------------------------------------------------------------
+
+fatal: unable to access 'https://github.com/DK-Hieu/Personal-Github.git/': OpenS
+SL SSL_connect: Connection was reset in connection to github.com:443
+
+git config --global http.sslBackend "openssl"
+git config --global http.sslCAInfo "C:\Program Files\Git\mingw64\ssl\cert.pem"
+
+------------------------------------------------------------------------------
 =======
 câu lệnh git bash
 
@@ -27,4 +44,3 @@ git remote -v #tìm đường link dẫn của github
  
 >>>>>>> 294ad4fe6aae1b2dbd66bfddc7deaac51e69d20d
 
-token github: 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
