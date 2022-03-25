@@ -1,4 +1,4 @@
-token github: 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
+token github: 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
 
 Update git bằng CMD:
 git version                #Check version
