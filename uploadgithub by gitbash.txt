@@ -35,8 +35,12 @@ SL SSL_connect: Connection was reset in connection to github.com:443
 
 git config --global http.sslBackend "openssl"
 git config --global http.sslCAInfo "C:\Program Files\Git\mingw64\ssl\cert.pem"
+git config --global http.sslverify "false"
+
 
 ------------------------------------------------------------------------------
+Xóa lịch sử git 
+rm -rf .git
 =======
 câu lệnh git bash
 
@@ -44,3 +48,5 @@ git remote -v #tìm đường link dẫn của github
  
 >>>>>>> 294ad4fe6aae1b2dbd66bfddc7deaac51e69d20d
 
+
+    git push --set-upstream origin master
